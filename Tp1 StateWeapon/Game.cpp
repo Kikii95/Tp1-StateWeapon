@@ -6,34 +6,28 @@
 Game::Game() : gun(10), isRunning(true) {}
 
 void Game::run() {
-    std::cout << "Let's Start ! 'R' to reload, 'S' to shoot, 'Q' to quit !" << std::endl;
+    std::cout << "Let's Start! Press 'S' to shoot, 'R' to reload, 'Q' to quit.\n";
     while (isRunning) {
         if (_kbhit()) {
             char key = _getch();
             processInput(key);
-            if (gun.needRender) {
-                render();
-            }
+            render();
         }
         update(0.016f);
     }
 }
 
 void Game::processInput(char input) {
-    std::cout << "--------------------------------------------" << std::endl;
     switch (input) {
     case 's':
-        gun.Shoot();
+        gun.TransitionTo(Gun::StateType::Shooting);
         break;
-
     case 'r':
-        gun.Reload();
+        gun.TransitionTo(Gun::StateType::Reloading);
         break;
-
     case 'q':
         isRunning = false;
         break;
-
     default:
         std::cout << "Invalid input. Try again.\n";
         break;

@@ -1,8 +1,10 @@
 #pragma once
-class State
-{
-public:
-	void virtual Start();
-	void virtual Update(float deltaTime);
-};
 
+class Gun;
+
+class State {
+public:
+    virtual void Start(Gun* gun) = 0;
+    virtual void Update(Gun* gun, float deltaTime) = 0;
+    virtual ~State() = default;
+};

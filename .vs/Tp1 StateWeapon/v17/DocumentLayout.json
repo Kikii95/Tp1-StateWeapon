@@ -1,33 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\",
+  "WorkspaceRootPath": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\State.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\State.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\StateList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\StateList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\State.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\State.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Gun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\Gun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Gun.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Gun.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\Gun.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Gun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\Gun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Tp1 StateWeapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\StateList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\StateList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\State.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\State.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\State.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\State.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Tp1 StateWeapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A5221B56-1F8A-45A3-8FEA-6E821918142B}|Tp1 StateWeapon\\Tp1 StateWeapon.vcxproj|solutionrelative:Tp1 StateWeapon\\Tp1 StateWeapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -38,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Gun.h",
-              "DocumentMoniker": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Gun.h",
+              "DocumentMoniker": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Gun.h",
               "RelativeDocumentMoniker": "Tp1 StateWeapon\\Gun.h",
-              "ToolTip": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Gun.h",
+              "ToolTip": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Gun.h",
               "RelativeToolTip": "Tp1 StateWeapon\\Gun.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-12T08:26:08.68Z",
               "IsPinned": true,
@@ -58,11 +66,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Gun.cpp",
-              "DocumentMoniker": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Gun.cpp",
+              "DocumentMoniker": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Gun.cpp",
               "RelativeDocumentMoniker": "Tp1 StateWeapon\\Gun.cpp",
-              "ToolTip": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Gun.cpp",
+              "ToolTip": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Gun.cpp",
               "RelativeToolTip": "Tp1 StateWeapon\\Gun.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "ViewState": "AQIAABAAAAAAAAAAAAAowDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-12T09:19:34.783Z",
               "IsPinned": true,
@@ -70,28 +78,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "State.cpp",
-              "DocumentMoniker": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\State.cpp",
-              "RelativeDocumentMoniker": "Tp1 StateWeapon\\State.cpp",
-              "ToolTip": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\State.cpp",
-              "RelativeToolTip": "Tp1 StateWeapon\\State.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-12T11:25:54.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "State.h",
-              "DocumentMoniker": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\State.h",
-              "RelativeDocumentMoniker": "Tp1 StateWeapon\\State.h",
-              "ToolTip": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\State.h",
-              "RelativeToolTip": "Tp1 StateWeapon\\State.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "StateList.h",
+              "DocumentMoniker": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\StateList.h",
+              "RelativeDocumentMoniker": "Tp1 StateWeapon\\StateList.h",
+              "ToolTip": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\StateList.h",
+              "RelativeToolTip": "Tp1 StateWeapon\\StateList.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-12T11:25:53.499Z",
+              "WhenOpened": "2024-11-12T22:17:06.081Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -102,37 +98,76 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Game.h",
-              "DocumentMoniker": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Game.h",
+              "DocumentMoniker": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Game.h",
               "RelativeDocumentMoniker": "Tp1 StateWeapon\\Game.h",
-              "ToolTip": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Game.h",
+              "ToolTip": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Game.h",
               "RelativeToolTip": "Tp1 StateWeapon\\Game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-12T08:49:56.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "StateList.cpp",
+              "DocumentMoniker": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\StateList.cpp",
+              "RelativeDocumentMoniker": "Tp1 StateWeapon\\StateList.cpp",
+              "ToolTip": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\StateList.cpp",
+              "RelativeToolTip": "Tp1 StateWeapon\\StateList.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T22:18:12.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "State.h",
+              "DocumentMoniker": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\State.h",
+              "RelativeDocumentMoniker": "Tp1 StateWeapon\\State.h",
+              "ToolTip": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\State.h",
+              "RelativeToolTip": "Tp1 StateWeapon\\State.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-12T11:25:53.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "State.cpp",
+              "DocumentMoniker": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\State.cpp",
+              "RelativeDocumentMoniker": "Tp1 StateWeapon\\State.cpp",
+              "ToolTip": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\State.cpp",
+              "RelativeToolTip": "Tp1 StateWeapon\\State.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T11:25:54.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Game.cpp",
+              "DocumentMoniker": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Game.cpp",
               "RelativeDocumentMoniker": "Tp1 StateWeapon\\Game.cpp",
-              "ToolTip": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Game.cpp",
+              "ToolTip": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Game.cpp",
               "RelativeToolTip": "Tp1 StateWeapon\\Game.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAowCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-12T08:52:03.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Tp1 StateWeapon.cpp",
-              "DocumentMoniker": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Tp1 StateWeapon.cpp",
+              "DocumentMoniker": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Tp1 StateWeapon.cpp",
               "RelativeDocumentMoniker": "Tp1 StateWeapon\\Tp1 StateWeapon.cpp",
-              "ToolTip": "C:\\Users\\kabboud\\source\\repos\\Tp1 StateWeapon\\Tp1 StateWeapon\\Tp1 StateWeapon.cpp",
+              "ToolTip": "C:\\Users\\killi\\source\\repos\\Tp1-StateWeapon\\Tp1 StateWeapon\\Tp1 StateWeapon.cpp",
               "RelativeToolTip": "Tp1 StateWeapon\\Tp1 StateWeapon.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-12T08:24:36.965Z",
               "EditorCaption": ""

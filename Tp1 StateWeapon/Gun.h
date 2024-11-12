@@ -1,10 +1,10 @@
 #pragma once
-#include <string>
 #include <iostream>
+#include "StateList.h"
 
 class Gun {
 public:
-    enum class State {
+    enum class StateType {
         Idle,
         Shooting,
         Empty,
@@ -13,34 +13,25 @@ public:
     };
 
     Gun(int capacity);
-
     void Update(float deltaTime);
-    bool TransitionTo(State newState);
-    
-    void Shoot();
-    void Reload();
+    void TransitionTo(StateType newState);
 
     int getAmmo() const;
-    void setAmmo(int newAmmo);
-
+    void setAmmo(int ammo);
     std::string getStateName() const;
-    bool needRender = false;
+
+    const int MaxAmmo;
+    float mReloadTime;
+    float mReloadProgress;
 
 private:
     int Ammo;
-    const int MaxAmmo;
 
-    State mCurrentState;
-    float mShootTime;
-    float mReloadTime;
-    float mShootProgress;
-    float mReloadProgress;
+    StateType mCurrentStateType;
+    State* mCurrentState;
 
-    bool mTransitions[(int)State::StateCount][(int)State::StateCount] = {
-        // Idle, Shooting, Empty, Reloading
-        { 0,      1,       0,       1 },  // Idle
-        { 1,      0,       1,       0 },  // Shooting
-        { 1,      0,       0,       1 },  // Empty
-        { 1,      0,       0,       0 },  // Reloading
-    };
+    IdleState mIdleState;
+    ShootingState mShootingState;
+    ReloadingState mReloadingState;
+    EmptyState mEmptyState;
 };
