@@ -8,40 +8,54 @@ void IdleState::Start(Gun* gun) {
 void IdleState::Update(Gun* gun, float deltaTime) {
 }
 
-
+void IdleState::End(Gun* gun) {
+    std::cout << "Exiting Idle State.\n";
+}
 
 void ShootingState::Start(Gun* gun) {
-    if (gun->getAmmo() > 0) {
-        std::cout << "Bang! Ammo left: " << gun->getAmmo() - 1 << "\n";
-        gun->setAmmo(gun->getAmmo() - 1);
+    std::cout << "Entering Shooting State.\n";
+    if (gun->mAmmo > 0) {
+        std::cout << "Bang! Ammo left : " << gun->mAmmo - 1 << "\n";
+        mShootProgress = 0;
     }
     else {
-        std::cout << "No ammo left! Switching to Empty State.\n";
+        std::cout << "No ammo left!\n";
         gun->TransitionTo(Gun::StateType::Empty);
     }
 }
 
 void ShootingState::Update(Gun* gun, float deltaTime) {
-    gun->TransitionTo(Gun::StateType::Idle);
+    mShootProgress = mShootProgress + deltaTime;
+    if (mShootProgress >= gun->mShootTime) {
+        std::cout << "Shoot complete.\n";
+        gun->mAmmo--;
+        gun->TransitionTo(Gun::StateType::Idle);
+    }
+
 }
 
-
-
+void ShootingState::End(Gun* gun) {
+    std::cout << "Exiting Shooting State.\n";
+}
 
 void ReloadingState::Start(Gun* gun) {
     std::cout << "Reloading...\n";
+    mReloadProgress = 0;
 }
 
 void ReloadingState::Update(Gun* gun, float deltaTime) {
-    gun->mReloadProgress += deltaTime;
-    if (gun->mReloadProgress >= gun->mReloadTime) {
-        gun->setAmmo(gun->MaxAmmo);
-        std::cout << "Reload complete. Ammo: " << gun->getAmmo() << "\n";
+    mReloadProgress = mReloadProgress + deltaTime;
+    if (mReloadProgress >= gun->mReloadTime) {
+        gun->mAmmo = gun->mMaxAmmo;
+        std::cout << "Reload complete.\nCurrent Ammo = " << gun->mAmmo << "\n";
+        mReloadProgress = 0;
         gun->TransitionTo(Gun::StateType::Idle);
     }
 }
 
-
+void ReloadingState::End(Gun* gun) {
+    std::cout << "Exiting Reloading State.\n";
+}
 
 
 void EmptyState::Start(Gun* gun) {
@@ -49,4 +63,8 @@ void EmptyState::Start(Gun* gun) {
 }
 
 void EmptyState::Update(Gun* gun, float deltaTime) {
+}
+
+void EmptyState::End(Gun* gun) {
+    std::cout << "Exiting Empty State.\n";
 }

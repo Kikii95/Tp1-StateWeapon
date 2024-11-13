@@ -12,26 +12,32 @@ public:
         StateCount
     };
 
+    friend class ReloadingState;
+    friend class ShootingState;
+
     Gun(int capacity);
     void Update(float deltaTime);
     void TransitionTo(StateType newState);
-
-    int getAmmo() const;
-    void setAmmo(int ammo);
     std::string getStateName() const;
 
-    const int MaxAmmo;
-    float mReloadTime;
-    float mReloadProgress;
-
 private:
-    int Ammo;
+    int mAmmo;
+    const int mMaxAmmo;
+    float mReloadTime;
+    float mShootTime;
 
     StateType mCurrentStateType;
     State* mCurrentState;
 
-    IdleState mIdleState;
-    ShootingState mShootingState;
-    ReloadingState mReloadingState;
-    EmptyState mEmptyState;
+    State* mStates[(int)StateType::StateCount];
+
+
+
+    bool mTransitions[(int)StateType::StateCount][(int)StateType::StateCount] = {
+        // Idle, Shooting, Empty, Reloading
+        { 0,      1,       0,       1 },  // Idle
+        { 1,      0,       1,       0 },  // Shooting
+        { 1,      0,       0,       1 },  // Empty
+        { 1,      0,       0,       0 },  // Reloading
+    };
 };

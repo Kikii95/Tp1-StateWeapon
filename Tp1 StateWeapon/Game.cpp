@@ -39,6 +39,5 @@ void Game::update(float deltaTime) {
 }
 
 void Game::render() {
-    std::cout << "Current ammo: " << gun.getAmmo() << "\n";
     std::cout << "Current state: " << gun.getStateName() << "\n";
 }
